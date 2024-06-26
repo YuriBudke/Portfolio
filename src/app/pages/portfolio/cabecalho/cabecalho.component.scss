@@ -1,0 +1,117 @@
+
+.topo{
+
+    width:100%;
+    height:80vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+}
+.topo header{
+    width: 80%;
+    padding: 15px;
+    display: flex;
+    border: 2px rgb(0, 225, 255) solid;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 60px;
+    box-shadow:3px 3px 0 rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.topo p{
+    padding:0;
+    margin:0;
+    font: size 1.3em;
+
+}
+.topo nav{
+    width:30%;
+    margin: auto;
+}
+.topo nav ul{
+    display:flex;
+    gap: 15px;
+    padding:0;
+    margin:0;
+
+
+}
+
+.topo nav li{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+
+}
+
+.botao{
+    width: 100px;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+    border-radius: 30px;
+    background-color: aquamarine solid;
+    font-weight:bold;
+    box-shadow: 3px 3px 0 black solid;
+}
+
+/*Estilização do Topo Main*/
+
+.topo main{
+    width:70%;
+    height:60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    h1{
+        font-size: 3em;
+        padding: 15px;
+        margin: 0;
+    }
+    p{
+        font-size: 1.5em;
+        color: #333;
+    }
+    .botoes{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding: 10px;
+    }
+    a{
+        width: 100px;
+        padding: 10px;
+        border: 1px black solid;
+        text-align: center;
+        border-radius: 30px;
+        background-color: aquamarine;
+        font-weight:bold;
+        box-shadow: 3px 3px 0 black;
+        &:hover{
+            background-color: rgb(0, 238, 255);
+            cursor: pointer;
+            box-shadow: 3px 3px 0.3em black;
+        }
+    }
+    }
+
+
+.competencias{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.bolinha{
+    width:10px;
+    height: 10px;
+    background-color: rgb(20, 143, 224);
+    border-radius: 50%;
+}
