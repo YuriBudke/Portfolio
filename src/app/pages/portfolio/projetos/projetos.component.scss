@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px; /* Aumentar o espaçamento entre os quadrados */
+}
+
+.project {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Aumentar o sombreamento */
+    text-align: center;
+    height: fit-content; /* Ajuste a altura conforme necessário */
+    padding: 10px;
+}
+
+.project a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    height: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+    height: 150px; /* Ajuste a altura conforme necessário */
+}
+
+.project img:hover {
+    transform: scale(1.05);
+}
+
+.project h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.project p {
+    color: #666666;
+    font-size: 1rem;
+    margin-top: 10px; /* Adicionar espaçamento superior para a descrição */
+    padding: 0 10px; /* Adicionar padding lateral para a descrição */
+}
